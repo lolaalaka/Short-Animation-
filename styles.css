@@ -1,0 +1,165 @@
+body {
+    padding: 0;
+    margin: 0;  
+}
+
+ul {
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.navigate {
+    margin-left: 20px;
+    padding-left: 5%;
+    padding-top: 2%; 
+}
+   
+.click-image {
+       margin-left: 40%;
+       padding-top: 2%;
+}
+
+.btn {
+       background-color: inherit;
+       border: none;
+       border-radius: 50%;
+       outline: none;
+}
+   
+   
+.btn:hover{
+     box-shadow: 0 0 10px inherit;
+}
+
+.btn:active {
+       box-shadow: 0 20px inherit;
+       transform: translateY(4px);
+       border: none;
+}
+   
+
+.body{
+    background: linear-gradient(35deg, #ccffff, #ffcccc);
+    padding-bottom: 30px;
+    height: 600px;
+    position: relative;
+}
+
+.body-1 {
+    background-image: radial-gradient( circle farthest-corner at 14.2% 27.5%,  rgba(104,199,255,0.5) 0%, rgba(181,126,255,0.5) 90% );
+}
+
+.body-2 {
+    background-image: radial-gradient( circle 636.6px at 10% 20%,  rgba(243,94,125,0.5) 0%, rgba(213,200,111,0.5) 90% );
+}
+
+.body-3 { 
+    background-image: linear-gradient( 118.4deg,  rgba(122,35,52,0.2) 27.5%, rgba(62,9,27,0.5) 92.7% ); 
+}
+
+.text{
+    color: rgba(29, 28, 28, 0.5) ;
+}
+.bikingtwo{
+    width: 50%;
+    position: absolute;
+    top:55%;
+    z-index: 5;
+}
+
+.biking {
+    animation-name: bike;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: fixed;
+    animation-timing-function: linear;
+}
+
+@keyframes bike{
+
+    0%{
+        left: -400px;
+    
+        
+    }
+    50% {
+        left: 60%;
+    }
+
+    100% {
+        right: -40%;
+        left: 100%;
+        opacity: 0.5; 
+    }
+
+}
+
+.stars {
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+    opacity: 0.5;
+  }
+
+.star-1 {
+    margin-top: 1%;
+    margin-left: 26%;
+    animation-duration: 1s;
+    animation-name: twinkle;
+    
+}
+
+.star-2 {
+    margin-top: 0;
+    margin-left: 80%;
+}
+
+.star-3 {
+    margin-top: 15%;
+    margin-left: 50%;
+    animation-duration: 1s;
+    animation-name: twinkle;
+    
+}
+
+.starstwo {
+    background-color: beige;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+    opacity: 0.5;
+}
+
+.star-4 {
+    position: absolute;
+    left: 230px;
+    bottom: 200px;
+    animation-duration: 1s;
+    animation-name: twinkle;
+}
+
+.star-5 {
+    position: absolute;
+    bottom: 30px;
+    left: 600px;
+}
+
+.star-6 {
+      position: absolute;
+    bottom: 300px;
+    left: 900px;
+    animation-duration: 1s;
+    animation-name: twinkle;
+}
